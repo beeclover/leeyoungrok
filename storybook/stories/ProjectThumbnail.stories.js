@@ -1,7 +1,7 @@
-import ProjectThumbnail from "../../app/src/components/atoms/thumbnail/Project";
+import ProjectThumbnail from '@atom/thumbnail/Project';
 
 export default {
-  title: "atoms/thumbnail/Project",
+  title: 'atoms/thumbnail/Project',
   component: ProjectThumbnail,
 };
 
