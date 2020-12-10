@@ -6,10 +6,11 @@
     "start": "next dev",
     "build": "next build",
     "serve": "next start",
-    "sb": "start-storybook -p 6006",
+    "sb": "start-storybook -s ./public -p 6006 --ci",
     "sb-build": "build-storybook -o .out"
   },
   "dependencies": {
+    "framer-motion": "^2.9.5",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",

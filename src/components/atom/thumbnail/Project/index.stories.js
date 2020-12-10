@@ -1,4 +1,4 @@
-import ProjectThumbnail from '@atom/thumbnail/Project';
+import ProjectThumbnail from '.';
 
 export default {
   title: 'atoms/thumbnail/Project',
