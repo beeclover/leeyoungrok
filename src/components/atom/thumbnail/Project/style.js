@@ -1,14 +1,22 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const Wrap = styled.div`
   display: flex;
 `;
 
-export const FixedBox = styled.div`
+const FixedBox = styled.div`
   padding: 32px 209px 43px 34px;
   position: relative;
+  overflow: hidden;
 `;
+FixedBox.Right = styled.div`
+  padding: 37px 0 38px 211px;
+  position: relative;
+  overflow: hidden;
+`;
+export { FixedBox };
+
 export const Content = styled.div`
   width: 222px;
   height: 313px;
@@ -16,7 +24,8 @@ export const Content = styled.div`
   position: relative;
   z-index: 100;
 `;
-export const Circle = styled(motion.div)`
+
+const Circle = styled(motion.div)`
   width: 388px;
   height: 388px;
   position: absolute;
@@ -33,6 +42,11 @@ Circle.defaultProps = {
     loop: Infinity,
   },
 };
+Circle.Right = styled(Circle)`
+  right: 45px;
+`;
+export { Circle };
+
 export const AwesomeCircle = styled(motion.div)`
   width: 100%;
   height: 100%;

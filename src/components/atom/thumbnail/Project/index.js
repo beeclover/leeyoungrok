@@ -1,7 +1,7 @@
 // components
 import { Wrap, FixedBox, AwesomeCircle, Circle, Content } from './style';
 
-export default function ProjectThumbnail() {
+const ProjectThumbnail = () => {
   return (
     <Wrap>
       <FixedBox>
@@ -12,4 +12,18 @@ export default function ProjectThumbnail() {
       </FixedBox>
     </Wrap>
   );
-}
+};
+ProjectThumbnail.Right = () => {
+  return (
+    <Wrap>
+      <FixedBox.Right>
+        <Content />
+        <Circle.Right>
+          <AwesomeCircle />
+        </Circle.Right>
+      </FixedBox.Right>
+    </Wrap>
+  );
+};
+
+export default ProjectThumbnail;
