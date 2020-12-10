@@ -7,7 +7,7 @@
     "build": "next build",
     "serve": "next start",
     "sb": "start-storybook -p 6006",
-    "sb-build": "build-storybook"
+    "sb-build": "build-storybook .out"
   },
   "dependencies": {
     "next": "10.0.1",
