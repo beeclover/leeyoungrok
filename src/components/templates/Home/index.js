@@ -1,14 +1,15 @@
 // components
-import Layout from "@component/Layout";
-import { Container, Row, Col } from "./style";
-import UIUX from "@component/molecules/UIUX";
-import IndustrialDesign from "@component/molecules/IndustrialDesign";
-import UseTool from "@component/molecules/UseTool";
-import Career from "@component/molecules/Career";
+import { Container, Row, Col } from './style';
+import UIUX from '@component/molecules/UIUX';
+import IndustrialDesign from '@component/molecules/IndustrialDesign';
+import UseTool from '@component/molecules/UseTool';
+import Career from '@component/molecules/Career';
+import GNB from '@module/GNB';
 
 export default function Home(props) {
   return (
-    <Layout>
+    <>
+      <GNB />
       <Container>
         <Row>
           <Col col>배너(인물사진???) - 디자인을 하는 이유 & 나의 장점</Col>
@@ -61,6 +62,6 @@ export default function Home(props) {
           </Col>
         </Row>
       </Container>
-    </Layout>
+    </>
   );
 }
