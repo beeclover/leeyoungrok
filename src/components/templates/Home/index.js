@@ -1,11 +1,8 @@
-// components
-import { Container, Row, Col } from './style';
-import IndustrialDesign from '@component/molecules/IndustrialDesign';
-import UseTool from '@component/molecules/UseTool';
-import Career from '@component/molecules/Career';
-
+// data
 import interactionDesignData from './interactionDesignData';
 import industrialDesignData from './industrialDesignData';
+// components
+import { Container, Row, Col } from './style';
 import ProjectList from '@component/molecules/ProjectList';
 
 export default function Home() {
