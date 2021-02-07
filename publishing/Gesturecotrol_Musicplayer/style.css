@@ -22,17 +22,12 @@
     font-size: 50px;
     font-weight: bolder;
 }
-.LTC_images{
-    width: 100px;
-    height: 100px;
-}
 .LTC_images img{
-    width: 300px;
+    width: 1500px;
     height: auto;
+    display: block;
 }
-.LTC_images_wrap .LTC_images{
-    display: inline-block;
-}
+
 .LTC_images_wrap{
     text-align: center;
 }
@@ -44,6 +39,6 @@
     font-size: 16px;
 }
 .video_clip{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 300px;
 }
