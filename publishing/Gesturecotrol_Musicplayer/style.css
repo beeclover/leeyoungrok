@@ -1,2 +1,12 @@
-body {
+video {
+    width: 1500px;
+    height: 718px;
+}
+
+.project_title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.project_overview{
+    font-size: 16;
 }
