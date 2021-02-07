@@ -1,3 +1,5 @@
+import styled from "styled-components"
+export const Custom = styled.div`
 .main_wrap{
     width: 1500px;
     margin: 0 auto;
@@ -42,3 +44,4 @@
     height: auto;
     width: 300px;
 }
+`
