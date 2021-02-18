@@ -1,10 +1,8 @@
-// colors
-
 export default {
-  '$very-light-pink': '#d1d1d1',
-  $white: '#ffffff',
-  $black: '#000000',
-  '$very-light-pink-two': '#c4c4c4',
-  '$brownish-grey': '#636363',
-  '$brown-grey': '#b0b0b0',
+  black: '#000000',
+  brownGrey: '#b0b0b0',
+  brownishGrey: '#636363',
+  veryLightPink: '#d1d1d1',
+  veryLightPinkTwo: '#c4c4c4',
+  white: '#ffffff',
 };

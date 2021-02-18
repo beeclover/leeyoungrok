@@ -1,8 +1,10 @@
 import { css } from 'styled-components';
+
 export default {
-  textStyle: css`
-    font-size: 12px;
+  textStyle2: css`
+    font-size: 18px;
     text-align: left;
-    color: ${({ theme }) => theme.palette['$white']};
+    font-family: Roboto;
+    font-weight: 400;
   `,
 };
